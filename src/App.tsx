@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import Gantt from "frappe-gantt";
-import "frappe-gantt/dist/frappe-gantt.css";
 
 type Task = {
   id: string;
