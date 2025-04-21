@@ -209,6 +209,8 @@ function App() {
           style={{
             overflowX: "auto",
             width: "100%",
+            paddingLeft: "400px",
+            backgroundColor: "#fff",
             paddingLeft: "20px",
           }}
         ></div>
