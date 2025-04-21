@@ -49,7 +49,7 @@ function App() {
       const gantt = new Gantt(ganttRef.current, tasks, {
         view_mode: "Day",
         bar_height: 32,
-        on_click: (task) => {
+        on_click: (task: any) => {
           setSelectedId(task.id);
           setEditName(task.name);
         },
