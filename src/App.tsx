@@ -1,3 +1,4 @@
+import "frappe-gantt/dist/frappe-gantt.css";
 import React, { useEffect, useRef, useState } from "react";
 import Gantt from "frappe-gantt";
 
