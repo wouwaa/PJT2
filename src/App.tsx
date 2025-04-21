@@ -207,10 +207,11 @@ function App() {
         <div
           ref={ganttRef}
           style={{
+             width: "100%",
+            height: "500px",
             overflowX: "auto",
-            width: "100%",
-            paddingLeft: "400px",
-            backgroundColor: "#fff",
+            paddingLeft: "20px",
+            backgroundColor: "#ffffff",
           }}
         ></div>
       </div>
