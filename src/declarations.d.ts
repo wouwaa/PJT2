@@ -1,1 +1,1 @@
-declarations.d.ts
+declare module "frappe-gantt";
